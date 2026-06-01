@@ -10,3 +10,7 @@ main {
 background-color: #FFFFFF;
 color: #a1a708;
 }
+img {
+width: 80px;
+height: 80px;
+}
