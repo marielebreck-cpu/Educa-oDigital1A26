@@ -1,5 +1,5 @@
 body {
-    max-width: 20vw;
+    max-width: 800vw;
 }
 header {
 background-color: rgb(245, 209, 5);
@@ -32,6 +32,10 @@ article {
 }
 }
 img {
-width: 80px;
-height: 80px;
+width: 120px;  
+height: auto;  
+position: fixed;   
+bottom: 20px;  
+right: 20px;   
+z-index: 1000;
 }
