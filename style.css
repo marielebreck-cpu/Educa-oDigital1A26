@@ -1,5 +1,6 @@
 body {
-    max-width: 800vw;
+    max-width: 1200vw;
+    margin: 0 auto;
 }
 header {
 background-color: rgb(245, 209, 5);
@@ -13,9 +14,8 @@ background-color: #FFFFFF;
 color: #a1a708;
 margin: 0 auto;
 padding: 16px;
-main {
-    display: flex;
-    flex-wrap: wrap;
+display: flex;
+flex-wrap: wrap;
 }
 article {
     display: flex;
@@ -29,13 +29,9 @@ article {
     padding: 16px;
     flex: 1 25%;
 }
-}
-}
+
 img {
-width: 120px;  
-height: auto;  
-position: fixed;   
-bottom: 20px;  
-right: 20px;   
-z-index: 1000;
+width: 100%; 
+height: auto;
+max-width: 200px;
 }
