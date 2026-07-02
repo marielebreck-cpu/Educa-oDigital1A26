@@ -8,6 +8,7 @@ botao.addEventListener("click", botaoClicado);
 function botaoClicado() {
 console.log("fui clicado");
 let texto = botao.querySelector("span");
+let contador = Number(texto.textContent);
 if (curtiu === false){
 texto.textContent++;
 curtiu = true;
