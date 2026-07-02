@@ -28,12 +28,9 @@
                 <button>🤗<span>0</span></button>
                 <div>
         </article>
-        
+        <article>
         <div>
 
-                    </p>    
-                <p class="artigo-fonte"></p>
-                    
                 <article>
                     <img src="imagem.png" alt="imagem gerada pelo gemini">
                     <div>
@@ -44,6 +41,7 @@
                             </p>
                         <button>❤️<span>0</span></button>
                         <button>🤗<span>0</span></button>
+                        <p class="artigo-fonte"></p>
                         <div>
                 </article>
                 <article>
@@ -53,7 +51,6 @@
                         <p class="artigo-autor">Por: Mariele Breck </p>
                         <p> O surgimento do primeiro computador comercial, o UNIVAC I, ocorreu em 1951, 
                             revolucionando o processamento de dados empresariais e governamentais.
-                            
                             </p>
                         <button>❤️<span>0</span></button>
                         <button>🤗<span>0</span></button>
@@ -66,7 +63,6 @@
                         <p class="artigo-autor">Por: Mariele Breck </p>
                         <p> A principal diferença entre computadores e celulares antigos era a mobilidade, 
                             barreira que sumiu com o avanço dos microchips.
-                            
                             </p>
                         <button>❤️<span>0</span></button>
                         <button>🤗<span>0</span></button>
@@ -79,7 +75,6 @@
                         <p class="artigo-autor">Por: Mariele Breck </p>
                         <p> A principal diferença entre computadores e celulares antigos era a mobilidade, 
                             barreira que sumiu com o avanço dos microchips.
-                            
                             </p>
                         <button>❤️<span>0</span></button>
                         <button>🤗<span>0</span></button>
@@ -92,7 +87,6 @@
                         <p class="artigo-autor">Por: Mariele Breck </p>
                         <p> Os smartphones modernos possuem mais poder de processamento do que 
                             os computadores que levaram o homem à Lua.
-                            
                             </p>
                         <button>❤️<span>0</span></button>
                         <button>🤗<span>0</span></button>
@@ -105,7 +99,6 @@
                         <p class="artigo-autor">Por: Mariele Breck </p>
                         <p> A computação quântica surge como o próximo grande salto, prometendo resolver em 
                             segundos cálculos que levariam anos.
-                            
                             </p>
                         <button>❤️<span>0</span></button>
                         <button>🤗<span>0</span></button>
@@ -113,24 +106,5 @@
                 </article>
     </main>
 </body>
-<script>
-    const botoes = document.querySelectorAll("button");
-
-    botoes.forEach(function (botao) {
-        let curtiu = false;
-        botao.addEventListener("click", botaoClicado);
-        function botaoClicado() {
-            console.log("fui clicado");
-            let texto = botao.querySelector("span");
-            if (curtiu === false) {
-                texto.textContent++;
-                curtiu = true;
-            } else {
-                texto.textContent--;
-                curtiu = false;
-            }
-        }
-    });
-</script>
-
+<script src="script.js"></script>
 </html>
