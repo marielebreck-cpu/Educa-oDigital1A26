@@ -5,18 +5,22 @@
     --cor-texto: rgb(27, 249, 212);
     --cor-contraste: #130173;
     --cor-botao: #f9f9f9;
+    .tema-escuro {
+    --cor-primaria: #c9e3ff; 
+    --cor-fundo: #151428; 
+    --cor-texto: #ffffff;
 }
 header {
-background-color: rgb(27, 249, 212);
-color: #130173;
+background-color:var(--cor-primaria);
+color: #130173
 text-align: center;
 max-width: 800px;
 margin: 0 auto;
 padding: 16px;
 }
 main {
-background-color: #130173;
-color: rgb(27, 249, 212);
+background-color:var(--cor-fundo);
+color: var(--cor-texto);
 max-width: 800px;
 margin: 0 auto;
 padding: 16px;
