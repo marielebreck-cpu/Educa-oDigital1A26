@@ -1,6 +1,11 @@
-
-
-
+:root {
+    --cor-primaria: rgb(27, 249, 212);
+    --cor-secundaria: #130173;
+    --cor-fundo: #130173;
+    --cor-texto: rgb(27, 249, 212);
+    --cor-contraste: #130173;
+    --cor-botao: #f9f9f9;
+}
 header {
 background-color: rgb(27, 249, 212);
 color: #130173;
