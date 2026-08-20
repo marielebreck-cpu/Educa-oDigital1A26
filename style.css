@@ -23,7 +23,7 @@
 
 .tema-escuro p {
     color: var(--cor-texto);
-
+}
 .tema-escuro a {
 color: var(--cor-secundaria);
 }
@@ -34,9 +34,14 @@ color: var(--cor-secundaria);
     color: var(--cor-texto);
 }
 
+body {
+    max-width: 100vw;
+}
+
 header {
 background-color:var(--cor-primaria);
-color: #130173
+color: #130173;
+text-align: center;
 max-width: 600px;
 margin: 0 auto;
 padding: 16px;
